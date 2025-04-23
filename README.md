@@ -11,7 +11,7 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
 $A = (V_A , E_A)$, where $V_A$ and $E_A$ are the sets of all nodes and edges in graph A, respectively. $B = (V_B , E_B)$, where $V_B$ and $E_B$ are the sets of all nodes and edges in graph B, respectively.  
-Given that A and B are both fully connected, and have the same number of nodes, it can be concluded that $LengthOfV_A = LengthOfV_B$ and that $LengthOfE_A = LengthOfE_B$  
-Additionally, since they are both fully connected, any node on A or B will have a number of edges equal to the length of the set of every node in its respective graph.  
-This means that for any edge between node you select in either graph, you can find an edge in the other graph such that the edge exists within that graph's set of edges.  
-More specifically, you can find any edge $(u,v) \in E_A$ such that another edge $(f(u), f(v)) \in E_B$ Alternatively, you can also find any edge $(u,v) \in E_B$ such that another edge $(f(u), f(v)) \in E_A$
+Given that A and B both have the same number of nodes, and fully connected, it can be concluded that $LengthOfV_A = LengthOfV_B$ and that $LengthOfE_A = LengthOfE_B$  
+Knowing this, it can be concluded that a bijection $f$ for these two graphs would be one-to-one and onto as a result.  
+
+Using the knowledge that A and B are both fully connected graphs, and that the bijection is ont-to-one and onto, it can be concluded that $\forall u,v$ in either graph, $\exists$ an edge $(u,v)$ such that it is an element of that graph's set of edges. Given that the bijection $f$ is ont-to-one and onto, it can also be concluded that $\forall u,v$ in either graph, $\exists$ two corresponding nodes $f(u),f(v)$ on the other graph. Since the other graph is also fully connected, it must be true that $\exists$ and edge $(f(u), f(v)$ such that it is an element of the other graph's set of edges. This falls in line with the definition of what it means for graphs to be isomorphic.
