@@ -11,7 +11,7 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
 $A = (V_A , E_A)$, where $V_A$ and $E_A$ are the sets of all nodes and edges in graph A, respectively. $B = (V_B , E_B)$, where $V_B$ and $E_B$ are the sets of all nodes and edges in graph B, respectively.  
-Given that A and B are both fully connected, and have the same number of nodes, it can be concluded that $length of V_A = length of V_B$ and that $length  of  E_A = length  of  E_B$  
+Given that A and B are both fully connected, and have the same number of nodes, it can be concluded that $length of V_A = length of V_B$ and that $LengthOfE_A = LengthOfE_B$  
 Additionally, since they are both fully connected, any node on A or B will have a number of edges equal to the length of the set of every node in its respective graph.  
 This means that for any edge between node you select in either graph, you can find an edge in the other graph such that the edge exists within that graph's set of edges.  
 More specifically, you can find any edge $(u,v) \in E_A$ such that another edge $(f(u), f(v)) \in E_B$ 
