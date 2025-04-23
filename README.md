@@ -15,3 +15,7 @@ Given that A and B both have the same number of nodes, and fully connected, it c
 Knowing this, it can be concluded that a bijection $f$ for these two graphs would be one-to-one and onto as a result.  
 
 Using the knowledge that A and B are both fully connected graphs, and that the bijection is ont-to-one and onto, it can be concluded that $\forall u,v$ in either graph, $\exists$ an edge $(u,v)$ such that it is an element of that graph's set of edges. Given that the bijection $f$ is ont-to-one and onto, it can also be concluded that $\forall u,v$ in either graph, $\exists$ two corresponding nodes $f(u),f(v)$ on the other graph. Since the other graph is also fully connected, it must be true that $\exists$ and edge $(f(u), f(v)$ such that it is an element of the other graph's set of edges. This falls in line with the definition of what it means for graphs to be isomorphic.
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
+Got some help from Aiden Newberry with figuring out a good way to word what I was thinking. 
